@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e8ff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #6a1b9a;
+}
+
+p {
+    text-align: left;
+    line-height: 1.6;
+    margin: 20px 0;
+ /* Initially hide paragraphs */
+}
+
+.birthday-wishes {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #d32f2f;
+}
