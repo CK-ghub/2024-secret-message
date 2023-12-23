@@ -4,7 +4,7 @@ function typeWriter(element, text, i, callback) {
         i++;
         setTimeout(function() {
             typeWriter(element, text, i, callback);
-        }, 15); // Typing speed in milliseconds
+        }, 10); // Typing speed in milliseconds
     } else if (typeof callback == 'function') {
         callback();
     }
